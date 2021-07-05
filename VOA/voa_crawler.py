@@ -100,4 +100,4 @@ if __name__ == '__main__':
     d = {'Title':titles,'Date':times,"Text":texts}
 
     df = pd.DataFrame(d)
-    df.to_csv (r'voa_swahili.csv', index = False, header=True)
+    df.to_csv (r'voa_swahili2.csv', index = False, header=True)

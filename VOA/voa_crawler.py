@@ -95,7 +95,7 @@ if __name__ == '__main__':
     #print(allinks)
 
     titles, times, texts = scrap_pages(allinks)
-
+ 
     # create a dictionary of the top
     d = {'Title':titles,'Date':times,"Text":texts}
 
